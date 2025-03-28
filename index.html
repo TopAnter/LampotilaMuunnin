@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>bootstrap-sivut</title>
+    </head>
+    <body>
+        <h2>Lämpötilamuunnin</h2>
+        <form>
+            <select id="yksikko" name="yksikko">
+                <option value="CTOF">Celsius -> Fahrenheit</option>
+                <option value="FTOC">Fahrenheit -> Celsius</option>
+            </select>
+            <br>
+            <p>Syötä lämpötila:</p>
+            <input type="text" id="maara">
+            <button id="muunna">Muunna</button>
+            <br>
+            <label>
+                <input type="radio" name ="desimaalit" value="1">1 desimaali
+            </label>
+            <br>
+            <label>
+                <input type="radio" name ="desimaalit" value="2">2 desimaalia
+            </label>
+            <br>
+            <label>
+                <input type="radio" name ="desimaalit" value="3">3 desimaalia
+            </label>
+        </form>
+        <script src="main.js"></script>
+    </body>
+</html>
