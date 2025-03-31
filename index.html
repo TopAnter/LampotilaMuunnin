@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>bootstrap-sivut</title>
+        <title>Lampotilamuunnin</title>
     </head>
     <body>
         <h2>Lämpötilamuunnin</h2>
-        <form>
+        <form id="form1">
             <select id="yksikko" name="yksikko">
                 <option value="CTOF">Celsius -> Fahrenheit</option>
                 <option value="FTOC">Fahrenheit -> Celsius</option>
@@ -30,6 +30,9 @@
                 <input type="radio" name ="desimaalit" value="3">3 desimaalia
             </label>
         </form>
+        <div>
+            <p id="tulostus"></p>
+        </div>
         <script src="main.js"></script>
     </body>
 </html>
