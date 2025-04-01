@@ -10,14 +10,15 @@
         <h2>Lämpötilamuunnin</h2>
         <form id="form1">
             <select id="yksikko" name="yksikko">
-                <option value="CTOF">Celsius -> Fahrenheit</option>
-                <option value="FTOC">Fahrenheit -> Celsius</option>
+                <option value="CTOF">Celcius -> Fahrenheit</option>
+                <option value="FTOC">Fahrenheit -> Celcius</option>
             </select>
             <br>
             <p>Syötä lämpötila:</p>
             <input type="text" id="maara">
             <button id="muunna">Muunna</button>
             <br>
+            
             <label>
                 <input type="radio" name ="desimaalit" value="1">1 desimaali
             </label>
@@ -29,9 +30,11 @@
             <label>
                 <input type="radio" name ="desimaalit" value="3">3 desimaalia
             </label>
+            
         </form>
         <div>
             <p id="tulostus"></p>
+            <p id="ilmoitus"></p>
         </div>
         <script src="main.js"></script>
     </body>
